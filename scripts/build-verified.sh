@@ -25,4 +25,4 @@ timeout \
   "${SITES_BUILD_TIMEOUT:-3m}" \
   "${vinext}" build
 
-"${script_dir}/validate-artifact.sh"
+bash "$SCRIPT_DIR/sites-env.sh"
