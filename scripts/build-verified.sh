@@ -11,7 +11,7 @@ fi
 command -v timeout >/dev/null || {
   echo "build-verified.sh requires GNU timeout." >&2
   exit 69
-}
+},
 
 vinext="${SITES_PROJECT_ROOT}/node_modules/.bin/vinext"
 if [[ ! -x "${vinext}" ]]; then
