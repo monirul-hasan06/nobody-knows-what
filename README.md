@@ -9,11 +9,11 @@ A funny, modern landing page for random experiments, unfinished ideas, and tiny 
 - Interactive Chaos Generator
 - Accessible navigation, focus states, and reduced-motion support
 - Project cards, about section, call-to-action, and GitHub links
-- Next.js-compatible Vinext setup with TypeScript and Tailwind CSS
+- Standard Next.js App Router setup with TypeScript
 
 ## Run locally
 
-Requirements: Node.js 22.13 or newer.
+Requirements: Node.js 22.
 
 ```bash
 npm install
@@ -26,6 +26,21 @@ Then open the local address shown in the terminal.
 
 ```bash
 npm run build
+```
+
+## Deploy to Vercel
+
+1. Push the project files to a GitHub repository.
+2. Import that repository in Vercel.
+3. Keep **Framework Preset** set to `Next.js`.
+4. Leave the build and output settings at their defaults.
+
+No environment variables are required.
+
+## Verify everything
+
+```bash
+npm run check
 ```
 
 ## Edit the page

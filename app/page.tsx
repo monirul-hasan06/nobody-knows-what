@@ -185,7 +185,7 @@ export default function Home() {
                 <span>02</span> while (idea = <strong>random</strong>()) {"{"}{"\n"}
                 <span>03</span>   try {"{"} <mark>ship_it()</mark>; {"}"}{"\n"}
                 <span>04</span>   catch (¯\\_(ツ)_/¯) {"{"}{"\n"}
-                <span>05</span>     console.log(<mark>"who knows"</mark>);{"\n"}
+                <span>05</span>     console.log(<mark>{'"who knows"'}</mark>);{"\n"}
                 <span>06</span>   {"}"}{"\n"}
                 <span>07</span> {"}"}
               </code>
